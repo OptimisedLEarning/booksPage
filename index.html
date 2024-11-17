@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    
+    <header>
+        <h1>E-Library</h1>
+    </header>
+    
+    <div class="form-container">
+        <form>
+            <input type="text" id="title" placeholder="Book Title" maxlength="30">
+            <input type="text" id="author" placeholder="Author" maxlength="30">
+            <select>
+                <option value='not read'>Not read</option>
+                <option value='read'>Read</option>
+            </select>
+            <button>Add</button>
+        </form>
+        
+        <div id="add">Add book</div>
+    </div>
+    <table>
+        <thead>
+            <th scope="col">Name</th>
+            <th scope="col">Author</th>
+            <th scope="col">Status</th>
+            <th scope="col"></th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <p>*This is a Demo and all books are stored in local storage. </p>
+</body>
+</html>
+
+
