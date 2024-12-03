@@ -1,8 +1,7 @@
 # booksPage
 
 
-Think of your page as a grid with rows and columns.
-Example:
+
 Top Section: A header (e.g., page title).
 Middle Section: Form for inputs.
 Bottom Section: Table to display data.
